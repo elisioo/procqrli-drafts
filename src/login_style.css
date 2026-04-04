@@ -55,8 +55,18 @@ body {
   height: 100%;
   pointer-events: none;
   z-index: 2;
-  background: radial-gradient(ellipse 60% 40% at 80% 30%, rgba(180,255,255,0.18) 0%, rgba(120,180,255,0.10) 40%, rgba(24,23,20,0.01) 100%),
-              radial-gradient(ellipse 40% 30% at 90% 70%, rgba(255,255,255,0.10) 0%, rgba(24,23,20,0.01) 100%);
+  background:
+    radial-gradient(
+      ellipse 60% 40% at 80% 30%,
+      rgba(180, 255, 255, 0.18) 0%,
+      rgba(120, 180, 255, 0.1) 40%,
+      rgba(24, 23, 20, 0.01) 100%
+    ),
+    radial-gradient(
+      ellipse 40% 30% at 90% 70%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(24, 23, 20, 0.01) 100%
+    );
   filter: blur(32px);
   animation: smokeMove 8s ease-in-out infinite alternate;
 }
@@ -74,7 +84,6 @@ body {
     transform: translateY(20px) scale(0.98);
     opacity: 0.85;
   }
-}
 }
 
 /* ── Logo ── */
